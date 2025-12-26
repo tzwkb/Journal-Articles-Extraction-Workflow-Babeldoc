@@ -3,7 +3,7 @@
 # API配置
 api:
   # 翻译API配置
-  translation_api_key: "sk-N8jo5CXiZ4iaubqQwHwUaTuMJBxJzJbdTM2zhFsCjD472ASf"
+  translation_api_key: ""
   translation_api_base_url: "https://liangjiewis.com/v1"
   translation_api_model: "gpt-4o-mini"
 
@@ -36,3 +36,4 @@ babeldoc:
 batch:
   max_concurrent_files: 10       # 同时处理的PDF文件数
   resume_enabled: true          # 启用断点续传
+
